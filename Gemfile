@@ -45,12 +45,12 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
-group :development, :test do
 	gem 'capistrano', '~> 3.0.1'
 	gem 'capistrano-rails'
 	gem 'capistrano-bundler'
 	gem 'capistrano-rbenv', github: "capistrano/rbenv"
+group :development, :test do
+	
 	gem 'sqlite3'
 end
 

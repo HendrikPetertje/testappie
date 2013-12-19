@@ -1,6 +1,6 @@
 set :rbenv_ruby, "2.0.0-p353"
 set :application, 'testapp'
-set :repo_url, 'github repo'
+set :repo_url, 'git@github.com:PicoReclame/testappie.git'
 
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 
